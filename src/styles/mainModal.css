@@ -1,0 +1,67 @@
+.mainModal {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainModal h2 {
+    color: #333333;
+}
+
+.mainModalTitle, .mainModalDesc, .mainModalImg {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.mainModalTitle input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    background-color: #F2F2F2;
+}
+
+.mainModalDesc textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    background-color: #F2F2F2;
+    border: 1px solid #b9b9b9;
+}
+
+.mainModalImg {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4669a1;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#publishBtn, #cancelhBtn {
+    width: 100px;
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#publishBtn {
+    background-color: #4285F4;
+}
+#cancelhBtn {
+    background-color: #333333;
+}
